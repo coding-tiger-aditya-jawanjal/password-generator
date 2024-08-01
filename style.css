@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	background-image: linear-gradient(
+		to right,
+		rgb(184, 63, 143),
+		rgb(232, 215, 225)
+	);
+	background-clip: text;
+	color: transparent;
+	text-shadow: 1.5px 1.5px 0px whitesmoke;
+}
